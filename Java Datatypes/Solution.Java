@@ -3,13 +3,10 @@ import java.io.*;
 import java.lang.Math;
 
 
+public class Solution{
 
-class Solution{
-    public static void main(String []argh)
+    public static void main(String[] args)
     {
-
-
-
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 

@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Sol",
+            "request": "launch",
+            "mainClass": "Sol",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1",
+            "request": "launch",
+            "mainClass": "Solution1",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckVowels",
+            "request": "launch",
+            "mainClass": "CheckVowels",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

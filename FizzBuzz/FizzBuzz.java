@@ -1,8 +1,6 @@
-package FizzBuzz;
-
 public class FizzBuzz {
 
-    public String fizzBuzz(Integer i) {
+    public static String fizzBuzz(Integer i) {
 
         if ((i % 3 == 0) && (i % 5 == 0)){
           return "FizzBuzz";
@@ -11,5 +9,9 @@ public class FizzBuzz {
         }else if(i % 5 == 0){
           return "Buzz";
         }else return i + "";
+    }
+
+    public static void main(String[] args) {
+      System.out.println(fizzBuzz(10));
     }
 }
