@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz.FizzBuzz",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Ejercicios-Java_ad479c9d"
+        },
+        {
+            "type": "java",
             "name": "Launch Sol",
             "request": "launch",
             "mainClass": "Sol",
