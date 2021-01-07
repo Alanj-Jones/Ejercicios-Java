@@ -13,7 +13,7 @@ public class Solution {
                 System.out.printf("%-15s%03d%n",s1,x);
 
                 //Con '%-15s' Estoy Justificando a la izquierda una variable de tipo STRING por 15 caracteres
-                //Con '%03d'  Estoy Haciendo que una variable de valor decimal tengan una longitud de 3 digitos y que si no lo tienen se le agregue un 0
+                //Con '%03d'  Estoy Haciendo que una variable de valor decimal tengan una longitud minima de 3 digitos y que si no lo tienen se le agregue un 0
                 //Con '%n' Salto a la siguiente linea
                
                 
