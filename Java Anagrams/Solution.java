@@ -44,3 +44,9 @@ public class Solution {
     }
 }
 
+//Otra solucion posible era la siguiente:
+/*
+Arrays.sort(a);
+Arrays.sort(b);
+return Arrays.equals(a,b);
+*/
