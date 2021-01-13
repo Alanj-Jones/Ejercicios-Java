@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.*;
+import java.util.*; //Para el scanner
 
 public class Solution {
 
@@ -9,8 +8,6 @@ public class Solution {
         String A=sc.next();
         String B=sc.next();
         sc.close();
-        boolean lexi = false;
-        int C = 0;
         String upperA = A.substring(0, 1).toUpperCase() + A.substring(1);
         String upperB = B.substring(0, 1).toUpperCase() + B.substring(1);
         
