@@ -1,0 +1,3 @@
+Strategy:
+    Encapsular comportamientos en objetos de manera tal que pueda reemplazar el comportamiento de una clase sin necesidad de modificar
+    o heredaar de la clase que queremos que el comportamiento cambie.
