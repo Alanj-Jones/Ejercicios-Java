@@ -1,0 +1,7 @@
+Implementacion tecnica de Command es igual Strategy
+Cambia la filosofia de su uso
+Por lo general el uso de un Command esta ligado con el uso de un Interpreter
+
+Identificacion: 
+    Tener una interfaz para definir comandos, y cada comando que responda a una determinada accion.
+    Por otro lado vamos a tener un Interpreter que va a contener instancias de estos comandos para su ejecucion en base a parametros.

@@ -1,0 +1,2 @@
+ Para un determinado tipo de objeto tener una version Null de manera tal que suplimos ese objeto
+ en el caso de tener un null.
