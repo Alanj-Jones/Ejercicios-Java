@@ -1,0 +1,12 @@
+https://refactoring.guru/es/design-patterns/decorator
+https://refactoring.guru/es/design-patterns/decorator/java/example
+
+Decorator es un patrón de diseño estructural que permite añadir dinámicamente nuevos comportamientos a objetos 
+colocándolos dentro de objetos especiales que los envuelven (_wrappers_).
+
+Identificación: El patrón Decorator puede ser reconocido por métodos de creación o el constructor que acepta 
+objetos de la misma clase o interfaz que la clase actual.
+
+    Un objeto que responda a una interfaz y otro objeto que responde a la misma interfaz pero como que se come
+    al primero. El segundo objeto utiliza el primero para extender el comportamiento de ese sin necesidad de heredar 
+    de ese ni modificar su codigo

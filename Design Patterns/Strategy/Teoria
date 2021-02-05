@@ -1,3 +1,12 @@
 Strategy:
     Encapsular comportamientos en objetos de manera tal que pueda reemplazar el comportamiento de una clase sin necesidad de modificar
     o heredaar de la clase que queremos que el comportamiento cambie.
+
+
+https://refactoring.guru/es/design-patterns/strategy/java/example   Otro ejemplo.
+
+Ejemplos de uso: El patrón Strategy es muy común en el código Java. Se utiliza a menudo en varios frameworks para proporcionar a los
+                usuarios una forma de cambiar el comportamiento de una clase sin extenderla.
+
+Identificación: El patrón Strategy se puede reconocer por un método que permite a los objetos anidados hacer el verdadero trabajo,
+                 así como el método setter (modificador) que permite sustituir ese objeto por otro diferente.
