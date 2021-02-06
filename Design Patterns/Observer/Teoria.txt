@@ -1,0 +1,5 @@
+Se utiliza cuando nos queremos enterar de cambios en otro objeto.
+Es una forma de comunicar distintos objetos sin necesidad de que se conozcan entre si.
+
+No tiene una implementacion fija -> puede haber varios tipos de implementacion dependiendo de lo que se busque
+
