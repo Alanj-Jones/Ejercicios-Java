@@ -3,3 +3,8 @@ Es una forma de comunicar distintos objetos sin necesidad de que se conozcan ent
 
 No tiene una implementacion fija -> puede haber varios tipos de implementacion dependiendo de lo que se busque
 
+https://refactoring.guru/es/design-patterns/observer
+
+Observer es un patrón de diseño de comportamiento que te permite definir un mecanismo de suscripción para notificar a varios 
+objetos sobre cualquier evento que le suceda al objeto que están observando.
+
