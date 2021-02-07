@@ -1,0 +1,2 @@
+Manera simplificada de construir un objeto 
+El builder siempre se retorna a si mismo para que se puedan encadenar llamadas de metodos

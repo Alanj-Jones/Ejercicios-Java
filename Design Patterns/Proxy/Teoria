@@ -1,0 +1,9 @@
+El patron proxy -> Confundible con adapter
+                -> Busca retrasar la creacion de un determinado objeto hasta el momento en el que el Objeto
+                debe ser utilizado
+                -> Es lo opuesto al object pool
+                -> la implementacion es al reves
+
+
+    Cuando tenemos un objeto que usa mucha memoria y no estamos seguros si lo vamos a usar pero necesitamos una instancia creamos
+    un proxy por si no queremos estar chequeando si es nulo.
