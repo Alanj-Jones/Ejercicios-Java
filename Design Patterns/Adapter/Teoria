@@ -1,3 +1,12 @@
 https://refactoring.guru/design-patterns/adapter
 
 https://refactoring.guru/design-patterns/adapter/java/example
+
+clase 2/10
+
+Se utiliza normalmente para traducir una interfaz a otra que realiza el mismo trabajo pero con otro tipo de mensajes.
+
+Identificaccion: Tenemos una interfaz comun que no es implementada por otros objetos sino que los otros objetos son contenidos por
+implementaciones completas de la interfaz esa. Sinembargo lo que siempre es usado es la misma interfaz.
+
+Es como una abstraccion de clases que no tienen los mismos mensajes para hacer las mismas cosas.

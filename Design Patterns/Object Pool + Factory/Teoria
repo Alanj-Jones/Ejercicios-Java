@@ -1,0 +1,18 @@
+Object Pool tiene diversos objetivos -> Para Objetos que requieran una inicializacion que lleva bastante tiempo
+                                        o gran costo de inicializacion, podemos inicializar en un solo momento una cantidad
+                                        fija de objetos e ir reutilizandolos en vez de crear nuevos.
+                                     -> Puede ser de cualquier cosa. Debe encargarse de la administracion de la memoria del Pool.
+                                     -> No es super comun ver un Object Pool
+
+
+
+
+
+
+Object Pool podria usar internamente un Factory para administrar la creacion de objetos.
+
+Factory -> Arma los objetos -> Es un objeto que arma otros objetos
+         -> Su objetivo es -> Abstraer la construccion de un tipo de objeto, simplificarlo y concentrarlo en una clase
+         -> Hay distintos tipos de Factory   
+         -> Puede ser usado si tenemos una interfaz y queremos que la construccion de nuestros objetos sea abstraida.
+         -> Simplificamos la creacion de un objeto encapsulando en un objeto que se encarga de su creacion                 
