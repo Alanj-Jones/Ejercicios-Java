@@ -1,0 +1,27 @@
+	PRINCIPIOS SOLID DE PROGRAMACION:
+		Single responsibility:  Cada clase deberia tener una unica responsabilidad, es decir, Por ej, la clase color solo deberia guardar las unicas cosas de color. Despues otra clase deberia ser la de oscurecer el color. Lo mismo con el color merger.
+		Se busca el nivel mayor de abstraccion
+		
+		Open/Close :
+			Abierta para su extension, cerrada para su modificacion.
+		Hay que diseniar las clases de una manera que sus miembros puedan tener sus valores alterados y cambiada la forma de su uso por herencia por ej. Pero debe ser cerrada a su modificacion, es decir, si necesito algo de una clase que no deba ir a modificar el codigo, sino que deba poder heredarlo. Permite reutilizar aun mas las clases.
+		Siempre depende del fin que se tenga
+		
+		Liskob's/substitution principle:
+			Establece que una clase derivada deberia poder reemplazar un objeto de la clase base. 
+			
+		Interface segregation: 
+			No hay que castigar al programador con metodos que no se van a usar !Es Importante!
+			No sobrecargar a las interfaces. Cuando vas a agregar algo a una iterfas preguntarse si realmente es necesario en esa interfas
+			ANALIZAR EL CONTEXTO
+			
+		Dependency Injection:
+			Se refiere a que el objeto pueda ser substraido desde el exterior y no que solo se cree y destruya adentro de la clase. Evitar el uso de NEW en tu clase
+			
+			Se quiere lograr que se pueda modificar sin reescribir codigo
+		
+		O
+		
+		Dependency inversion:
+			Hay que depender (de interfaces) de abstracciones y no de implementaciones.
+			Hay que desarrollar la interfaz 
