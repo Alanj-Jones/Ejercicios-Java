@@ -18,14 +18,18 @@ public class Extractor{
                   if(line.charAt(i) == '<') {
                       String tempString = line.substring(i,line.length());
                       int temp = 0;
-                      for(int j = i+1; j<tempString.length(); j++) {
+                      for(int j = 0; j<tempString.length(); j++) {
                           if(tempString.charAt(j) == '>') {
-                              
-                          }
-
+                              temp = j;
+                              break;
+                          }                          
                       }
+                      i += temp;
+                  } else {
+                      result += line.charAt(i);
                   }
               }
+              System.out.println(result);
 			
 			testCases--;
 		}
