@@ -9,7 +9,6 @@ public class Extractor{
 		while(testCases>0){
 			String line = in.nextLine();
 			
-          	//Write your code here
               String result = "";
               for (int i = 0; i<line.length(); i++) {
                   if(line.charAt(i) == '<') {
