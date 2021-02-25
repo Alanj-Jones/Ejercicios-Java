@@ -11,15 +11,18 @@ public class ArrayListExercise {
             ArrayList<Integer> single = new ArrayList<>();
             int quantity = in.nextInt();
             for (int j=0; j<quantity; j++) {
-                
+                single.add(in.nextInt());
+            }
+            multiple.add(single);
+        }        
+        int m = in.nextInt();
+        for (int i = 0; i < m; i++) {
+            try {
+                System.out.println(multiple.get(in.nextInt()-1).get(in.nextInt()-1));            
+            } catch (Exception e) {
+                System.out.println("ERROR!");
             }
         }
-
-
-
-
-
         in.close();
-
     }
 }
